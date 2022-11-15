@@ -56,6 +56,7 @@ def tiny_request_basic_contas(token, init_emiss, fim_emiss, pagina=1):
     return resp
 
 
+
 def get_payables_tiny():
     tokens = dict(Tiny_CWB=os.getenv('TINY_CWB'),
                   Tiny_SC=os.getenv('TINY_SC'),
